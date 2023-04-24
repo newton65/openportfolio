@@ -1,0 +1,235 @@
+
+      /* Apply a natural box layout model to all elements */
+* {
+        box-sizing: border-box;
+      }
+      
+      
+body {
+      box-sizing: border-box;
+      background-color: #ffeead;
+      padding: 0px;
+      margin: 0px;
+      font-family: unset;
+      font-family: 'Amiko';
+      font-size: 4vw;
+}
+
+      /* Set a max-width for the main container */
+      
+ html {
+      scroll-behavior: smooth;
+     }
+      
+ .container {
+        max-width: 960px;
+        margin: 0;
+        padding: 1vw;
+      }
+      
+.container a {
+    color: #3e62af;
+    font-size: 0.9rem;
+}
+
+
+.container a:hover {
+    color: cadetblue;
+}
+      /* Add styles for the header */
+      
+.header-div {
+   text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+      }
+      
+      .header-div img {
+        max-width: 50%;
+        height: auto;
+        border: 5px 5px solid;
+        border-radius: 14px;
+        border-image-slice: 1;
+        box-shadow: 10px 5px #3f87a6;
+      }
+      
+      .header-div h1 {
+        font-size: 5vw;
+        margin: 0;
+        padding: 10px 0;
+      }
+      
+      .header-div h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 10px 0;
+      }
+
+      /* Add styles for the About Me section 
+      .about-me {
+           background-color: transparent;
+           color: #111;
+           margin: 1rem 0;
+           border-radius: 0.5rem;
+           box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+           display: grid;
+           place-items: center;
+      }
+      
+      */
+      
+ .about-me {
+  background-color: transparent;
+  font-weight: 900;
+  color: #111;
+  display: grid;
+  place-items: center;
+}
+
+.accordion-item-header:hover {
+  background-color: #f8f9fa;
+  transition: 1.5s ease-in-out;
+  box-shadow: 5px 5px;
+  border-radius: 10px;
+  border: 3px solid;
+}
+      
+      
+      /*  Header que se muestra al inicio     */
+
+.accordion-item-header {
+  padding: 1rem;
+  padding-right: 2.5rem;
+  margin: 0.5rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  transition: 1.5s ease-out;
+  border-radius: 5px;
+}
+
+/*  Header que se muestra al inicio After     */
+
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+/*  Header que se muestra al inicio Active After     */
+
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+
+/*  Body oculto I    */
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*  Body oculto II    */
+
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+
+ /* Add styles for the Tech Stack section */
+      .stack {
+        padding: 5px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+      }
+      .stack p {
+        white-space: pre-line;
+      }
+
+      /* Add styles for the Projects section */
+      .projects {
+        padding: 5px;
+        margin: 0px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+      }
+      .projects h4 {
+        margin-top: 5px;
+      }
+      .projects p {
+        margin: 0;
+      }
+      .projects article {
+        margin-bottom: 5px;
+      }
+      .projects a {
+        display: block;
+        margin-top: 5px;
+      }
+
+      /* Add styles for the Education section */
+      .education {
+        padding: 5px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+      }
+      .education h4 {
+        margin-top: 5px;
+      }
+      .education p {
+        margin: 0;
+      }
+      .education article {
+        margin-bottom: 5px;
+      }
+      
+      /* Work Experience */
+
+.work-experience {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.work-experience p {
+    font-size: 2.5vw;
+}
+
+/* Social Media */
+
+.social-media {
+    margin: 1px;
+    padding: 1px;
+    display: grid;
+    place-items: center;
+}
+
+.p-footer {
+    display: grid;
+    place-items: center;
+}
+
+
+/* Add styles for the mobile view */
+      @media only screen and (max-width: 600px) {
+        .header-div h1 {
+          font-size: 28px;
+        }
+        .header-div h2 {
+          font-size: 20px;
+        }
+      }
