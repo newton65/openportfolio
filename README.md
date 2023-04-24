@@ -1,2 +1,2 @@
-# openportfolio
+# Open Portfolio
 🌸
