@@ -8,11 +8,14 @@
 body {
       box-sizing: border-box;
       background-color: #ffeead;
-      padding: 0px;
-      margin: 0px;
+      padding: 20px;
+      margin: 20px;
       font-family: unset;
       font-family: 'Amiko';
-      font-size: 4vw;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 
       /* Set a max-width for the main container */
@@ -101,9 +104,9 @@ body {
       /*  Header que se muestra al inicio     */
 
 .accordion-item-header {
-  padding: 1rem;
-  padding-right: 2.5rem;
-  margin: 0.5rem;
+  padding: 1.5rem;
+  padding-right: 3rem;
+  margin: 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
   font-weight: bold;
@@ -117,7 +120,7 @@ body {
 
 .accordion-item-header::after {
   content: "\002B";
-  font-size: 2rem;
+  font-size: 1rem;
   position: absolute;
   right: 1rem;
 }
