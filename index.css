@@ -105,7 +105,6 @@ body {
 
 .accordion-item-header {
   padding: 1.5rem;
-  padding-right: 3rem;
   margin: 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
@@ -119,17 +118,18 @@ body {
 /*  Header que se muestra al inicio After     */
 
 .accordion-item-header::after {
-  content: "\002B";
+  /* content: "\002B"; */
   font-size: 1rem;
   position: absolute;
   right: 1rem;
 }
 
-/*  Header que se muestra al inicio Active After     */
+/*  Header que se muestra al inicio Active After     
 
 .accordion-item-header.active::after {
-  content: "\2212";
+   content: "\2212"; 
 }
+*/
 
 /*  Body oculto I    */
 
@@ -228,11 +228,49 @@ body {
 
 
 /* Add styles for the mobile view */
-      @media only screen and (max-width: 600px) {
-        .header-div h1 {
-          font-size: 28px;
-        }
-        .header-div h2 {
-          font-size: 20px;
-        }
-      }
+
+/* For small screens */
+@media only screen and (max-width: 480px) {
+   
+  body {
+ background-color: salmon;
+  }
+
+    .header-div h1 {
+     font-size: 1rem;
+   }
+   
+   .header-div h2 {
+     font-size: 1.5rem;
+   }
+     
+ .accordion-item-header {
+     font-size: 1.5rem;
+ }
+ 
+ .p-footer {
+ font-size: 1rem;
+}
+}
+
+/* For medium screens */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+ 
+  body {
+  background-color: papayawhip;
+ }
+   
+    .header-div h1 {
+     font-size: 1.5rem;
+   }
+    
+   .header-div h2 {
+     font-size: 1.5rem;
+   }
+     
+ .accordion-item-header {
+     font-size: 2rem;
+ }
+ 
+ 
+}
