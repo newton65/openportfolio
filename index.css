@@ -10,8 +10,7 @@ body {
       background-color: #ffeead;
       padding: 20px;
       margin: 20px;
-      font-family: unset;
-      font-family: 'Amiko';
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
       font-size: 2rem;
       display: flex;
       align-items: center;
@@ -43,7 +42,6 @@ body {
       
 .header-div {
    text-align: center;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 6px;
     text-transform: uppercase;
     font-weight: 700;
@@ -224,6 +222,8 @@ body {
 .p-footer {
     display: grid;
     place-items: center;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 
