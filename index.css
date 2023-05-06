@@ -104,8 +104,8 @@ body {
       /*  Header que se muestra al inicio     */
 
 .accordion-item-header {
-  padding: 1rem;
-  margin: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.2rem;
   line-height: 1.25rem;
   font-weight: bold;
   position: relative;
@@ -201,15 +201,10 @@ body {
       /* Work Experience */
 
 .work-experience {
-    width: 80%;
     display: grid;
     place-items: center;
 }
 
-
-.work-experience p {
-    font-size: 2.5vw;
-}
 
 /* Social Media */
 
