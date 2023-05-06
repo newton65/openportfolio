@@ -15,6 +15,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      font-weight: 900;
 }
 
       /* Set a max-width for the main container */
@@ -49,7 +50,7 @@ body {
       }
       
       .header-div img {
-        max-width: 50%;
+        max-width: 70%;
         height: auto;
         border: 5px 5px solid;
         border-radius: 14px;
@@ -247,6 +248,10 @@ body {
  .accordion-item-header {
      font-size: 1.5rem;
  }
+
+ .work-experience {
+  width: 80%;
+}
  
  .p-footer {
  font-size: 1rem;
