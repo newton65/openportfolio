@@ -90,6 +90,7 @@ body {
   color: #111;
   display: grid;
   text-align: center;
+  place-items: center;
 }
 
 .accordion-item-header:hover {
@@ -154,6 +155,7 @@ body {
         margin: 5px;
         text-align: center;
         display: grid;
+        place-items: center;
       }
       .stack p {
         white-space: pre-line;
@@ -165,6 +167,7 @@ body {
         margin: 5px;
         text-align: center;
         display: grid;
+        place-items: center;
       }
 
       .projects img {
@@ -196,6 +199,7 @@ body {
         padding: 5px;
         text-align: center;
         display: grid;
+        place-items: center;
       }
       .education h4 {
         margin-top: 5px;
@@ -223,6 +227,7 @@ body {
     padding: 1px;
     display: grid;
     text-align: center;
+    place-items: center;
 }
 
 .p-footer {
