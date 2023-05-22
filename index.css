@@ -7,15 +7,17 @@
       
 body {
       box-sizing: border-box;
-      background-color: #ffeead;
+      background-color: #f5f4ee;
       padding: 20px;
       margin: 20px;
-      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+      font-family: 'Monoton', cursive;
       font-size: 2rem;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 900;
+      background-image: radial-gradient(#FF7F50 6px, transparent 8px);
+      background-size: 60px 60px;
 }
 
       /* Set a max-width for the main container */
@@ -55,7 +57,7 @@ body {
         border: 5px 5px solid;
         border-radius: 14px;
         border-image-slice: 1;
-        box-shadow: 10px 5px #3f87a6;
+        box-shadow: 10px 5px #3f9aa66c;
         background-color: transparent;
       }
       
@@ -86,11 +88,14 @@ body {
       
  .about-me {
   background-color: transparent;
-  font-weight: 900;
   color: #111;
   display: grid;
   text-align: center;
   place-items: center;
+}
+
+.about-me p {
+  font-size: medium;
 }
 
 .accordion-item-header:hover {
@@ -184,6 +189,7 @@ body {
       }
       .projects p {
         margin: 1rem;
+        font-size: medium;
       }
       .projects article {
         margin-bottom: 5px;
@@ -201,12 +207,15 @@ body {
         display: grid;
         place-items: center;
       }
-      .education h4 {
-        margin-top: 5px;
+      
+      .education img {
+        width: 70%;
+        border-radius: 14px;
+        box-shadow: 8px 6px 1px 1px rgba(37, 33, 12, 0.5);
+        height: 90%;
+        object-fit: cover;
       }
-      .education p {
-        margin: 0;
-      }
+
       .education article {
         margin-bottom: 5px;
       }
@@ -217,6 +226,10 @@ body {
     display: grid;
     place-items: center;
     text-align: center;
+}
+
+.work-experience p {
+  font-size: medium;
 }
 
 
@@ -249,7 +262,7 @@ body {
 @media only screen and (max-width: 480px) {
    
   body {
- background-color: salmon;
+ background-color: rgba(110, 245, 211, 0.445);
   }
 
     .header-div h1 {
