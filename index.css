@@ -272,6 +272,11 @@ body {
    .header-div h2 {
      font-size: 1.5rem;
    }
+
+   .stack p {
+    display: flex;
+    flex-direction: column;
+  }
      
  .accordion-item-header {
      font-size: 1.5rem;
