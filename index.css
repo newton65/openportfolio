@@ -95,7 +95,9 @@ body {
 }
 
 .about-me p {
-  font-size: medium;
+  font-size: xx-large;
+  font-family: monospace;
+  line-height: 1.5;
 }
 
 .accordion-item-header:hover {
@@ -189,7 +191,9 @@ body {
       }
       .projects p {
         margin: 1rem;
-        font-size: medium;
+        font-size: xx-large;
+  font-family: monospace;
+  line-height: 1.5;
       }
       .projects article {
         margin-bottom: 5px;
@@ -228,8 +232,14 @@ body {
     text-align: center;
 }
 
+.work-experience article h4 {
+  font-family: monospace;
+}
+
 .work-experience p {
-  font-size: medium;
+  font-size: xx-large;
+  font-family: monospace;
+  line-height: 1.5;
 }
 
 
